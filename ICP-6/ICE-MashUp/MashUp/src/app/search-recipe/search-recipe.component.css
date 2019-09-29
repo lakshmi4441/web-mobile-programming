@@ -1,0 +1,74 @@
+.parent-container {
+  height:100%;
+  width: 100%;
+  position: center;
+}
+
+.child-container {
+  color: black;
+  text-align: center;
+  position: center;
+
+}
+
+div {
+  padding: 10px;
+}
+
+.desc {
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+.thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+}
+
+.thumbnail-description {
+  min-height: 40px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+span {
+  padding: 10px;
+}
+
+.mat-list-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.container {
+  box-shadow: rgba(0,0,0,.24) 0px 2px 2px, rgba(0,0,0,.12) 0px 0px 2px;
+  border: 1px solid rgba(0,0,0,.03);
+  background-color: whitesmoke;
+  width: 50%;
+  align: center;
+
+  display: inline-block;
+}
+
+.card {
+  display: inline-block;
+  width: 80%;
+  align: center;
+}
+
+input {
+  padding: 10px;
+}
+
+table {
+  align: center;
+  width: 100%;
+}
+
+td {
+}
+
